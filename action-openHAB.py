@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from assistant import Assistant
-from openhab import OpenHAB
+from assistant.assistant import Assistant
+from openhab.openhab import OpenHAB
 from genderdeterminator import GenderDeterminator, Case
 
 USER_PREFIX = "Alpha200"

@@ -72,7 +72,7 @@ class OpenHAB:
     def load_synonyms(self):
         self.additional_synonyms = {
             k: [synonym.lower() for synonym in v.split(',')] for k, v in
-            load_properties("tags/tags_{language}.properties".format(language=self.lang)).items()
+            load_properties("openhab/tags/tags_{language}.properties".format(language=self.lang)).items()
         }
 
         for tag, synonyms in self.additional_synonyms.items():

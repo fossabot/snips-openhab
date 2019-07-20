@@ -1,4 +1,4 @@
-from config import read_configuration_file
+from assistant.config import read_configuration_file
 import toml
 from hermes_python.hermes import Hermes
 from hermes_python.ontology import MqttOptions

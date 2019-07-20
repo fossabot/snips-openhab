@@ -24,4 +24,4 @@ fi
 . $VENV/bin/activate
 
 pip3 install -U -r requirements.txt
-python3 upgrade_conf.py
+python3 assistant/upgrade_conf.py
