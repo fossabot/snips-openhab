@@ -7,6 +7,37 @@ from hermes_python.ontology.tts import RegisterSoundMessage
 from os import environ
 
 
+class TestAssistant:
+    def __init__(self):
+        self.intents = {}
+
+    def add_callback(self, intent_name, callback):
+        self.intents[intent_name] = callback
+
+    def register_sound(self, sound_name, sound_data):
+        pass
+
+    def callback(self, intent_message):
+        intent_name = intent_message.intent.intent_name
+
+        if intent_name in self.intents:
+            success, message = self.intents[intent_name](self, intent_message, self.conf)
+
+    def inject(self, entities):
+        pass
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exception_type, exception_val, trace):
+        if not exception_type:
+            return self
+        return False
+
+    def start(self):
+        pass
+
+
 class Assistant:
     def __init__(self):
         self.intents = {}
