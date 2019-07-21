@@ -7,5 +7,8 @@ python:
 
 install:
   - pip install -r requirements.txt
+  - pip install codecov
 
 script: coverage run --source openhab test_openHAB.py
+after_success:
+  - codecov
