@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FAlpha200%2Fsnips-openhab.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FAlpha200%2Fsnips-openhab?ref=badge_shield)
+
 *************
 Snips-openHAB
 *************
@@ -23,3 +25,7 @@ Weitere Informationen dazu befinden sich in der Dokumentation_.
 .. _Dokumentation: https://snips-openhab.readthedocs.io/de/latest/basics/introduction.html
 
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FAlpha200%2Fsnips-openhab.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FAlpha200%2Fsnips-openhab?ref=badge_large)
